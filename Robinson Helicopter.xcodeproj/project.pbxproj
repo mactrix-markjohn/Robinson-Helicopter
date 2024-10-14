@@ -11,6 +11,14 @@
 		04C22B4A2CBD956000B9F748 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C22B492CBD956000B9F748 /* ContentView.swift */; };
 		04C22B4C2CBD956300B9F748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C22B4B2CBD956300B9F748 /* Assets.xcassets */; };
 		04C22B4F2CBD956300B9F748 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C22B4E2CBD956300B9F748 /* Preview Assets.xcassets */; };
+		04C22B5A2CBDB9E600B9F748 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C22B592CBDB9E600B9F748 /* SplashView.swift */; };
+		04C22B5C2CBDBA0600B9F748 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C22B5B2CBDBA0600B9F748 /* LoginView.swift */; };
+		04C22B5E2CBDBA6600B9F748 /* EnableAccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C22B5D2CBDBA6600B9F748 /* EnableAccessView.swift */; };
+		04C22B602CBDBA9C00B9F748 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C22B5F2CBDBA9C00B9F748 /* SignUpView.swift */; };
+		04C22B622CBDBAC000B9F748 /* PreviousAccView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C22B612CBDBAC000B9F748 /* PreviousAccView.swift */; };
+		04C22B642CBDBAEC00B9F748 /* ForgotPassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C22B632CBDBAEC00B9F748 /* ForgotPassView.swift */; };
+		04C22B662CBDBB1500B9F748 /* HeliTrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C22B652CBDBB1500B9F748 /* HeliTrackView.swift */; };
+		04C22B682CBDBB3000B9F748 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C22B672CBDBB3000B9F748 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		04C22B492CBD956000B9F748 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		04C22B4B2CBD956300B9F748 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04C22B4E2CBD956300B9F748 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04C22B592CBDB9E600B9F748 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		04C22B5B2CBDBA0600B9F748 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		04C22B5D2CBDBA6600B9F748 /* EnableAccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnableAccessView.swift; sourceTree = "<group>"; };
+		04C22B5F2CBDBA9C00B9F748 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		04C22B612CBDBAC000B9F748 /* PreviousAccView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviousAccView.swift; sourceTree = "<group>"; };
+		04C22B632CBDBAEC00B9F748 /* ForgotPassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassView.swift; sourceTree = "<group>"; };
+		04C22B652CBDBB1500B9F748 /* HeliTrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeliTrackView.swift; sourceTree = "<group>"; };
+		04C22B672CBDBB3000B9F748 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +67,10 @@
 		04C22B462CBD956000B9F748 /* Robinson Helicopter */ = {
 			isa = PBXGroup;
 			children = (
+				04C22B582CBDB95C00B9F748 /* Others */,
+				04C22B572CBDB94C00B9F748 /* ViewModels */,
+				04C22B562CBDB2C500B9F748 /* Models */,
+				04C22B552CBDB2BB00B9F748 /* Views */,
 				04C22B472CBD956000B9F748 /* Robinson_HelicopterApp.swift */,
 				04C22B492CBD956000B9F748 /* ContentView.swift */,
 				04C22B4B2CBD956300B9F748 /* Assets.xcassets */,
@@ -65,6 +85,42 @@
 				04C22B4E2CBD956300B9F748 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04C22B552CBDB2BB00B9F748 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04C22B592CBDB9E600B9F748 /* SplashView.swift */,
+				04C22B5B2CBDBA0600B9F748 /* LoginView.swift */,
+				04C22B5D2CBDBA6600B9F748 /* EnableAccessView.swift */,
+				04C22B5F2CBDBA9C00B9F748 /* SignUpView.swift */,
+				04C22B612CBDBAC000B9F748 /* PreviousAccView.swift */,
+				04C22B632CBDBAEC00B9F748 /* ForgotPassView.swift */,
+				04C22B652CBDBB1500B9F748 /* HeliTrackView.swift */,
+				04C22B672CBDBB3000B9F748 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04C22B562CBDB2C500B9F748 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		04C22B572CBDB94C00B9F748 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		04C22B582CBDB95C00B9F748 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +194,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				04C22B4A2CBD956000B9F748 /* ContentView.swift in Sources */,
+				04C22B662CBDBB1500B9F748 /* HeliTrackView.swift in Sources */,
+				04C22B622CBDBAC000B9F748 /* PreviousAccView.swift in Sources */,
+				04C22B682CBDBB3000B9F748 /* HomeView.swift in Sources */,
+				04C22B642CBDBAEC00B9F748 /* ForgotPassView.swift in Sources */,
 				04C22B482CBD956000B9F748 /* Robinson_HelicopterApp.swift in Sources */,
+				04C22B5C2CBDBA0600B9F748 /* LoginView.swift in Sources */,
+				04C22B5A2CBDB9E600B9F748 /* SplashView.swift in Sources */,
+				04C22B602CBDBA9C00B9F748 /* SignUpView.swift in Sources */,
+				04C22B5E2CBDBA6600B9F748 /* EnableAccessView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
