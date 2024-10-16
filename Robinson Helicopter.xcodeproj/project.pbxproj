@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04678E9D2CBEF9450011C28B /* InterSemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04678E982CBEF9450011C28B /* InterSemiBold.ttf */; };
+		04678E9E2CBEF9460011C28B /* ShapiroSuper.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04678E992CBEF9450011C28B /* ShapiroSuper.otf */; };
+		04678E9F2CBEF9460011C28B /* ShapiroHeavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04678E9A2CBEF9450011C28B /* ShapiroHeavy.otf */; };
+		04678EA02CBEF9460011C28B /* InterLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04678E9B2CBEF9450011C28B /* InterLight.ttf */; };
+		04678EA12CBEF9460011C28B /* InterRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04678E9C2CBEF9450011C28B /* InterRegular.ttf */; };
 		04C22B482CBD956000B9F748 /* Robinson_HelicopterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C22B472CBD956000B9F748 /* Robinson_HelicopterApp.swift */; };
 		04C22B4A2CBD956000B9F748 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C22B492CBD956000B9F748 /* ContentView.swift */; };
 		04C22B4C2CBD956300B9F748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C22B4B2CBD956300B9F748 /* Assets.xcassets */; };
@@ -19,9 +24,19 @@
 		04C22B642CBDBAEC00B9F748 /* ForgotPassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C22B632CBDBAEC00B9F748 /* ForgotPassView.swift */; };
 		04C22B662CBDBB1500B9F748 /* HeliTrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C22B652CBDBB1500B9F748 /* HeliTrackView.swift */; };
 		04C22B682CBDBB3000B9F748 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C22B672CBDBB3000B9F748 /* HomeView.swift */; };
+		04DAEEBB2CBF037200F1E5E6 /* StringHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DAEEBA2CBF037200F1E5E6 /* StringHolder.swift */; };
+		04DAEEBE2CBF202A00F1E5E6 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DAEEBD2CBF202A00F1E5E6 /* CustomTextField.swift */; };
+		04DAEEC02CBF29F500F1E5E6 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DAEEBF2CBF29F500F1E5E6 /* CustomButton.swift */; };
+		04DAEEC22CBFDB8600F1E5E6 /* CustomNoBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DAEEC12CBFDB8600F1E5E6 /* CustomNoBackButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04678E982CBEF9450011C28B /* InterSemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = InterSemiBold.ttf; sourceTree = "<group>"; };
+		04678E992CBEF9450011C28B /* ShapiroSuper.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ShapiroSuper.otf; sourceTree = "<group>"; };
+		04678E9A2CBEF9450011C28B /* ShapiroHeavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ShapiroHeavy.otf; sourceTree = "<group>"; };
+		04678E9B2CBEF9450011C28B /* InterLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = InterLight.ttf; sourceTree = "<group>"; };
+		04678E9C2CBEF9450011C28B /* InterRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = InterRegular.ttf; sourceTree = "<group>"; };
+		04678EA22CBEF9710011C28B /* Robinson-Helicopter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Robinson-Helicopter-Info.plist"; sourceTree = SOURCE_ROOT; };
 		04C22B442CBD956000B9F748 /* Robinson Helicopter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Robinson Helicopter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C22B472CBD956000B9F748 /* Robinson_HelicopterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Robinson_HelicopterApp.swift; sourceTree = "<group>"; };
 		04C22B492CBD956000B9F748 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +50,10 @@
 		04C22B632CBDBAEC00B9F748 /* ForgotPassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassView.swift; sourceTree = "<group>"; };
 		04C22B652CBDBB1500B9F748 /* HeliTrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeliTrackView.swift; sourceTree = "<group>"; };
 		04C22B672CBDBB3000B9F748 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		04DAEEBA2CBF037200F1E5E6 /* StringHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringHolder.swift; sourceTree = "<group>"; };
+		04DAEEBD2CBF202A00F1E5E6 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		04DAEEBF2CBF29F500F1E5E6 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		04DAEEC12CBFDB8600F1E5E6 /* CustomNoBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNoBackButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +67,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04678E932CBEF3BA0011C28B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				04678E9B2CBEF9450011C28B /* InterLight.ttf */,
+				04678E9C2CBEF9450011C28B /* InterRegular.ttf */,
+				04678E982CBEF9450011C28B /* InterSemiBold.ttf */,
+				04678E9A2CBEF9450011C28B /* ShapiroHeavy.otf */,
+				04678E992CBEF9450011C28B /* ShapiroSuper.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		04C22B3B2CBD956000B9F748 = {
 			isa = PBXGroup;
 			children = (
@@ -67,10 +98,13 @@
 		04C22B462CBD956000B9F748 /* Robinson Helicopter */ = {
 			isa = PBXGroup;
 			children = (
+				04678EA22CBEF9710011C28B /* Robinson-Helicopter-Info.plist */,
+				04678E932CBEF3BA0011C28B /* Fonts */,
 				04C22B582CBDB95C00B9F748 /* Others */,
 				04C22B572CBDB94C00B9F748 /* ViewModels */,
 				04C22B562CBDB2C500B9F748 /* Models */,
 				04C22B552CBDB2BB00B9F748 /* Views */,
+				04DAEEBC2CBF1F8D00F1E5E6 /* SubViews */,
 				04C22B472CBD956000B9F748 /* Robinson_HelicopterApp.swift */,
 				04C22B492CBD956000B9F748 /* ContentView.swift */,
 				04C22B4B2CBD956300B9F748 /* Assets.xcassets */,
@@ -119,8 +153,19 @@
 		04C22B582CBDB95C00B9F748 /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				04DAEEBA2CBF037200F1E5E6 /* StringHolder.swift */,
 			);
 			path = Others;
+			sourceTree = "<group>";
+		};
+		04DAEEBC2CBF1F8D00F1E5E6 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				04DAEEBD2CBF202A00F1E5E6 /* CustomTextField.swift */,
+				04DAEEBF2CBF29F500F1E5E6 /* CustomButton.swift */,
+				04DAEEC12CBFDB8600F1E5E6 /* CustomNoBackButton.swift */,
+			);
+			path = SubViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,8 +226,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04678E9E2CBEF9460011C28B /* ShapiroSuper.otf in Resources */,
 				04C22B4F2CBD956300B9F748 /* Preview Assets.xcassets in Resources */,
+				04678E9D2CBEF9450011C28B /* InterSemiBold.ttf in Resources */,
 				04C22B4C2CBD956300B9F748 /* Assets.xcassets in Resources */,
+				04678EA12CBEF9460011C28B /* InterRegular.ttf in Resources */,
+				04678EA02CBEF9460011C28B /* InterLight.ttf in Resources */,
+				04678E9F2CBEF9460011C28B /* ShapiroHeavy.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,16 +243,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04DAEEC02CBF29F500F1E5E6 /* CustomButton.swift in Sources */,
 				04C22B4A2CBD956000B9F748 /* ContentView.swift in Sources */,
 				04C22B662CBDBB1500B9F748 /* HeliTrackView.swift in Sources */,
 				04C22B622CBDBAC000B9F748 /* PreviousAccView.swift in Sources */,
 				04C22B682CBDBB3000B9F748 /* HomeView.swift in Sources */,
 				04C22B642CBDBAEC00B9F748 /* ForgotPassView.swift in Sources */,
+				04DAEEC22CBFDB8600F1E5E6 /* CustomNoBackButton.swift in Sources */,
 				04C22B482CBD956000B9F748 /* Robinson_HelicopterApp.swift in Sources */,
 				04C22B5C2CBDBA0600B9F748 /* LoginView.swift in Sources */,
 				04C22B5A2CBDB9E600B9F748 /* SplashView.swift in Sources */,
+				04DAEEBE2CBF202A00F1E5E6 /* CustomTextField.swift in Sources */,
 				04C22B602CBDBA9C00B9F748 /* SignUpView.swift in Sources */,
 				04C22B5E2CBDBA6600B9F748 /* EnableAccessView.swift in Sources */,
+				04DAEEBB2CBF037200F1E5E6 /* StringHolder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +393,7 @@
 				DEVELOPMENT_TEAM = 44JYKT3G4T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Robinson-Helicopter-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -368,6 +423,7 @@
 				DEVELOPMENT_TEAM = 44JYKT3G4T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Robinson-Helicopter-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
