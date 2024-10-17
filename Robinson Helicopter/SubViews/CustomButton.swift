@@ -27,6 +27,10 @@ struct CustomButton: View {
                 
                 if isIcon {
                     Image(icon)
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 20, height: 20)
+                    
                 }
                 Text(title)
                 

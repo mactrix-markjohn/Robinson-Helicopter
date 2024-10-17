@@ -14,9 +14,14 @@ struct CustomNoBackButton: View {
     var onClick: () -> ()
     
     var body: some View {
-        Button(title){
-            // action
-        }
+        
+        Button(action: onClick,
+               
+               label: {
+            
+            Text(title)
+            
+        })
         .font(Font.custom("Inter28pt-SemiBold", size: 12))
         .foregroundStyle(Color("DarkCreamV3"))
     }

@@ -54,10 +54,11 @@ struct LoginView: View {
                         // something should be done
                     }
                     
-                    Button("Forgot your password?"){
-                        // action
+                    
+                    
+                    CustomNoBackButton(title: "Forgot your password?", textcolor: Color("DarkCreamV3")) {
+                        //Action here
                     }
-                    .foregroundStyle(Color("DarkCreamV3"))
                     
                     
                    
@@ -84,21 +85,73 @@ struct LoginView: View {
                 }
                 .padding(.bottom, 30)
                 
-                CustomButton(title: "Continue with email", icon: "", isIcon: false, backcolor: Color("StrangeBlue"), textcolor: Color("LightBlue"), bordercolor: Color("StrangeBlue")) {
+                CustomButton(title: "Continue with Google", icon: "google", isIcon: true, backcolor: Color("LightCream"), textcolor: Color(.black), bordercolor: Color("DarkCreamV2")) {
                     // something should be done
                 }
+                .padding(.bottom,6)
                 
-                CustomButton(title: "Continue with email", icon: "", isIcon: false, backcolor: Color("StrangeBlue"), textcolor: Color("LightBlue"), bordercolor: Color("StrangeBlue")) {
+                CustomButton(title: "Continue with Apple", icon: "apple", isIcon: true, backcolor: Color("LightCream"), textcolor: Color(.black), bordercolor: Color("DarkCreamV2")) {
                     // something should be done
                 }
+                .padding(.bottom,20)
                 
+                
+                HStack {
+                    Spacer()
+                    
+                    Text("Don’t have an account yet?")
+                        .font(Font.custom("Inter28pt-Regular", size: 12))
+                        .foregroundStyle(Color("DarkCreamV3"))
+                    
+                    CustomNoBackButton(title: "Sign up", textcolor: Color("DarkCreamV3")) {
+                        //Action here
+                    }
+                    
+                    
+                    Spacer()
+                }
+                .padding(.bottom,20)
+                
+                CustomNoBackButton(title: "Continue as a guest", textcolor: Color("DarkCreamV3")) {
+                    //Action here
+                }
+                .padding(.bottom,20)
+                
+                VStack {
+                    HStack (spacing: 3){
+                        Spacer()
+                        Text("By logging in you agree to the")
+                            .font(Font.custom("Inter28pt-Regular", size: 12))
+                            .foregroundStyle(Color("DarkCreamV3"))
+                        
+                        Text("Terms and Conditions")
+                            .font(Font.custom("Inter28pt-SemiBold", size: 12))
+                            .foregroundStyle(Color("DarkCreamV3"))
+                        
+                        Spacer()
+                    }
+                    
+                    HStack (spacing: 3){
+                        Spacer()
+                        Text("and the use of")
+                            .font(Font.custom("Inter28pt-Regular", size: 12))
+                            .foregroundStyle(Color("DarkCreamV3"))
+                        
+                        Text("cookies.")
+                            .font(Font.custom("Inter28pt-SemiBold", size: 12))
+                            .foregroundStyle(Color("DarkCreamV3"))
+                        
+                        Spacer()
+                        
+                    }
+                }
                 
                 
                 
                 Spacer()
                 
             }
-            .padding(.top,50)
+            .padding(.top,30)
             .padding(.leading,20)
             .padding(.trailing,20)
         }
