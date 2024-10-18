@@ -29,6 +29,7 @@
 		04DAEEC02CBF29F500F1E5E6 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DAEEBF2CBF29F500F1E5E6 /* CustomButton.swift */; };
 		04DAEEC22CBFDB8600F1E5E6 /* CustomNoBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DAEEC12CBFDB8600F1E5E6 /* CustomNoBackButton.swift */; };
 		04DAEEC42CC1A31400F1E5E6 /* CustomTitleBodyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DAEEC32CC1A31300F1E5E6 /* CustomTitleBodyButton.swift */; };
+		04DAEEC62CC23FC800F1E5E6 /* CustomPopUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DAEEC52CC23FC800F1E5E6 /* CustomPopUpButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		04DAEEBF2CBF29F500F1E5E6 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		04DAEEC12CBFDB8600F1E5E6 /* CustomNoBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNoBackButton.swift; sourceTree = "<group>"; };
 		04DAEEC32CC1A31300F1E5E6 /* CustomTitleBodyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTitleBodyButton.swift; sourceTree = "<group>"; };
+		04DAEEC52CC23FC800F1E5E6 /* CustomPopUpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPopUpButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +169,7 @@
 				04DAEEBF2CBF29F500F1E5E6 /* CustomButton.swift */,
 				04DAEEC12CBFDB8600F1E5E6 /* CustomNoBackButton.swift */,
 				04DAEEC32CC1A31300F1E5E6 /* CustomTitleBodyButton.swift */,
+				04DAEEC52CC23FC800F1E5E6 /* CustomPopUpButton.swift */,
 			);
 			path = SubViews;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				04DAEEBE2CBF202A00F1E5E6 /* CustomTextField.swift in Sources */,
 				04C22B602CBDBA9C00B9F748 /* SignUpView.swift in Sources */,
 				04C22B5E2CBDBA6600B9F748 /* EnableAccessView.swift in Sources */,
+				04DAEEC62CC23FC800F1E5E6 /* CustomPopUpButton.swift in Sources */,
 				04DAEEC42CC1A31400F1E5E6 /* CustomTitleBodyButton.swift in Sources */,
 				04DAEEBB2CBF037200F1E5E6 /* StringHolder.swift in Sources */,
 			);
