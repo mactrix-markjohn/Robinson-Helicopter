@@ -11,11 +11,12 @@ struct CustomPopUpButton: View {
     
     var title: String = "Remove Account"
     var icon: String = "trash"
+    var onClick: () -> ()
     
     var body: some View {
         
         
-        Button(action: {},
+        Button(action: onClick,
                
                label: {
             
@@ -48,5 +49,7 @@ struct CustomPopUpButton: View {
 }
 
 #Preview {
-    CustomPopUpButton()
+    CustomPopUpButton(){
+        
+    }
 }

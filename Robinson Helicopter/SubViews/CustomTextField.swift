@@ -14,6 +14,7 @@ struct CustomTextField: View {
     
     @Binding var value: String
     @State private var showPassword: Bool = false
+    @State var heightfield: CGFloat = 40
     
     
     var body: some View {
@@ -25,10 +26,12 @@ struct CustomTextField: View {
                     if showPassword {
                         TextField(hint, text: $value)
                             .textFieldStyle(PlainTextFieldStyle()) // Use PlainTextFieldStyle for no padding
+                            .autocapitalization(.none)
                             .padding(.top,14)
                             .padding(.bottom,14)
                             .padding(.leading,20)
                             .padding(.trailing,20)
+                            .frame(height: heightfield)
                             .font(.custom("Inter28pt-Light", size: 14))
                             .background(Color("LightCream")) // Optional: Background color for visibility
                             .cornerRadius(50)
@@ -39,10 +42,12 @@ struct CustomTextField: View {
                     } else {
                         SecureField(hint, text: $value)
                             .textFieldStyle(PlainTextFieldStyle()) // Use PlainTextFieldStyle for no padding
+                            .autocapitalization(.none)
                             .padding(.top,14)
                             .padding(.bottom,14)
                             .padding(.leading,20)
                             .padding(.trailing,20)
+                            .frame(height: heightfield)
                             .font(.custom("Inter28pt-Light", size: 14))
                             .background(Color("LightCream")) // Optional: Background color for visibility
                             .cornerRadius(50)
@@ -62,6 +67,7 @@ struct CustomTextField: View {
                     .padding(.bottom,14)
                     .padding(.leading,20)
                     .padding(.trailing,20)
+                    .frame(height: heightfield)
                     .font(.custom("Inter28pt-Light", size: 14))
                     .background(Color("LightCream")) // Optional: Background color for visibility
                     .cornerRadius(50)

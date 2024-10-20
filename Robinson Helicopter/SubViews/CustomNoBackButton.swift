@@ -11,6 +11,7 @@ struct CustomNoBackButton: View {
     
     var title: String
     var textcolor: Color
+    var textSize: CGFloat = 12
     var onClick: () -> ()
     
     var body: some View {
@@ -22,8 +23,8 @@ struct CustomNoBackButton: View {
             Text(title)
             
         })
-        .font(Font.custom("Inter28pt-SemiBold", size: 12))
-        .foregroundStyle(Color("DarkCreamV3"))
+        .font(Font.custom("Inter28pt-SemiBold", size: textSize))
+        .foregroundStyle(textcolor)
     }
 }
 

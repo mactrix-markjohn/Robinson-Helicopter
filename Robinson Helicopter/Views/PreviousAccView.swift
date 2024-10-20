@@ -8,7 +8,11 @@
 import SwiftUI
 
 struct PreviousAccView: View {
+    
+    
+    
     var body: some View {
+        
         ZStack {
             Rectangle()
                 .fill(Color("Cream"))
@@ -29,7 +33,9 @@ struct PreviousAccView: View {
                     })
                     .overlay {
                         
-                        CustomPopUpButton(title: "Remove account", icon: "trash")
+                        CustomPopUpButton(title: "Remove account", icon: "trash"){
+                            
+                        }
                         
                     }
                     
@@ -125,7 +131,7 @@ struct PreviousAccView: View {
                 .padding(.bottom,50)
                 
                 Button(action: {
-                    
+                    // action
                 }, label: {
                     Image("bluexbutton")
                 })
@@ -137,6 +143,58 @@ struct PreviousAccView: View {
             .padding(.top,30)
             .padding(.leading,20)
             .padding(.trailing,20)
+            
+            
+            
+            // Comfirmation dialog
+            RemoveAccountConfirmation
+                .opacity(0)
+            
+        }
+    }
+    
+    @ViewBuilder
+    var RemoveAccountConfirmation: some View {
+        ZStack {
+            Rectangle()
+                .fill(Color("Black"))
+                .opacity(0.4)
+                .ignoresSafeArea()
+            
+            ZStack {
+                
+                
+                RoundedRectangle(cornerRadius: 8)
+                    .fill(Color("Cream"))
+                
+                VStack {
+                    
+                    Text("Are you sure you want to remove ‘Ben Smith’ account?")
+                        .foregroundStyle(Color("Black"))
+                        .font(Font.custom("Inter28pt-SemiBold", size: 14))
+                        .multilineTextAlignment(.center)
+                        .padding(.bottom,12)
+                
+                    
+                    HStack {
+                        CustomButton(title: "Yes", icon: "", backcolor: Color("Cream"), textcolor: Color("Blue"), bordercolor: Color("Cream")) {
+                            // actiomn
+                        }
+                        
+                        CustomButton(title: "No", icon: "", backcolor: Color("Yellow"), textcolor: Color("Blue"), bordercolor: Color("Yellow")) {
+                            // actiomn
+                        }
+                    }
+                    
+                }
+                .padding(15)
+                
+                   
+                
+            }
+            .frame(width:266,height: 146)
+            
+            
         }
     }
 }

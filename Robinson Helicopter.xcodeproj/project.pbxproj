@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041496AE2CC558F600BE03DA /* CustomButtonWithFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041496AD2CC558F600BE03DA /* CustomButtonWithFrame.swift */; };
 		04678E9D2CBEF9450011C28B /* InterSemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04678E982CBEF9450011C28B /* InterSemiBold.ttf */; };
 		04678E9E2CBEF9460011C28B /* ShapiroSuper.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04678E992CBEF9450011C28B /* ShapiroSuper.otf */; };
 		04678E9F2CBEF9460011C28B /* ShapiroHeavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04678E9A2CBEF9450011C28B /* ShapiroHeavy.otf */; };
@@ -30,9 +31,11 @@
 		04DAEEC22CBFDB8600F1E5E6 /* CustomNoBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DAEEC12CBFDB8600F1E5E6 /* CustomNoBackButton.swift */; };
 		04DAEEC42CC1A31400F1E5E6 /* CustomTitleBodyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DAEEC32CC1A31300F1E5E6 /* CustomTitleBodyButton.swift */; };
 		04DAEEC62CC23FC800F1E5E6 /* CustomPopUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DAEEC52CC23FC800F1E5E6 /* CustomPopUpButton.swift */; };
+		04DAEEC82CC287CA00F1E5E6 /* CustomTabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DAEEC72CC287CA00F1E5E6 /* CustomTabButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		041496AD2CC558F600BE03DA /* CustomButtonWithFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonWithFrame.swift; sourceTree = "<group>"; };
 		04678E982CBEF9450011C28B /* InterSemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = InterSemiBold.ttf; sourceTree = "<group>"; };
 		04678E992CBEF9450011C28B /* ShapiroSuper.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ShapiroSuper.otf; sourceTree = "<group>"; };
 		04678E9A2CBEF9450011C28B /* ShapiroHeavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ShapiroHeavy.otf; sourceTree = "<group>"; };
@@ -58,6 +61,7 @@
 		04DAEEC12CBFDB8600F1E5E6 /* CustomNoBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNoBackButton.swift; sourceTree = "<group>"; };
 		04DAEEC32CC1A31300F1E5E6 /* CustomTitleBodyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTitleBodyButton.swift; sourceTree = "<group>"; };
 		04DAEEC52CC23FC800F1E5E6 /* CustomPopUpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPopUpButton.swift; sourceTree = "<group>"; };
+		04DAEEC72CC287CA00F1E5E6 /* CustomTabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +174,8 @@
 				04DAEEC12CBFDB8600F1E5E6 /* CustomNoBackButton.swift */,
 				04DAEEC32CC1A31300F1E5E6 /* CustomTitleBodyButton.swift */,
 				04DAEEC52CC23FC800F1E5E6 /* CustomPopUpButton.swift */,
+				04DAEEC72CC287CA00F1E5E6 /* CustomTabButton.swift */,
+				041496AD2CC558F600BE03DA /* CustomButtonWithFrame.swift */,
 			);
 			path = SubViews;
 			sourceTree = "<group>";
@@ -252,10 +258,12 @@
 				04DAEEC02CBF29F500F1E5E6 /* CustomButton.swift in Sources */,
 				04C22B4A2CBD956000B9F748 /* ContentView.swift in Sources */,
 				04C22B662CBDBB1500B9F748 /* HeliTrackView.swift in Sources */,
+				04DAEEC82CC287CA00F1E5E6 /* CustomTabButton.swift in Sources */,
 				04C22B622CBDBAC000B9F748 /* PreviousAccView.swift in Sources */,
 				04C22B682CBDBB3000B9F748 /* HomeView.swift in Sources */,
 				04C22B642CBDBAEC00B9F748 /* ForgotPassView.swift in Sources */,
 				04DAEEC22CBFDB8600F1E5E6 /* CustomNoBackButton.swift in Sources */,
+				041496AE2CC558F600BE03DA /* CustomButtonWithFrame.swift in Sources */,
 				04C22B482CBD956000B9F748 /* Robinson_HelicopterApp.swift in Sources */,
 				04C22B5C2CBDBA0600B9F748 /* LoginView.swift in Sources */,
 				04C22B5A2CBDB9E600B9F748 /* SplashView.swift in Sources */,

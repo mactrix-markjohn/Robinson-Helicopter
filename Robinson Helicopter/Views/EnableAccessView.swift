@@ -35,7 +35,7 @@ struct EnableAccessView: View {
                 HStack {
                     Text("For a better experience in the app, please allow the following permissions.")
                         .font(Font.custom("Inter28pt-Regular", size: 14))
-                        .foregroundStyle(Color(.black))
+                        .foregroundStyle(Color("Black"))
                     
                     Spacer()
                 }
@@ -49,7 +49,7 @@ struct EnableAccessView: View {
                     
                     
                     
-                    CustomTitleBodyButton(title: "Camera Access", contentbody: "Use your camera for the AR Experience in the Robinson Configurator", mainicon: "camera") {
+                    CustomTitleBodyButton(title: "Camera Access", contentbody: "Use your camera for the AR Experience in the Robinson Configurator", mainicon: "camera", checkstate: -1) {
                         // action
                     }
                     
