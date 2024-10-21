@@ -36,15 +36,15 @@ struct HeliTrackView: View {
                 
                 // View: Order tracking views
                 
-                //OrderTrackerFirstStageView
+                OrderTrackerFirstStageView
                 //OrderTrackerSecondStageView
                 Spacer()
                 
-            }.padding(.horizontal,20)
+            }.padding(.horizontal,30)
             
             
             // View: Info on where to find serial number
-            InfoFindSerialNum
+            //InfoFindSerialNum
             
             
             
@@ -56,21 +56,24 @@ struct HeliTrackView: View {
     var OrderTrackerFirstStageView: some View {
         
         
-        VStack (spacing: 10) {
+        VStack (spacing: 0) {
             Spacer()
             
             Image("helismalicon")
                 .resizable()
                 .scaledToFit()
                 .frame(width: 44, height: 44)
-                .padding(.bottom,20)
+                .padding(.bottom,24)
             
             Text("ROBINSON HELICOPTER ORDER TRACKER")
                 .font(Font.custom("Shapiro-75HeavyText", size: 18))
                 .foregroundStyle(Color("Blue"))
                 .multilineTextAlignment(.center)
+                .lineSpacing(0)
+                .padding(.bottom,6)
+                
             
-            Text("Have you recently bought a helicopter and don’t have it yet? Would you like to track its assembly process? (You will be able to do it later, too.)")
+            Text("Have you recently bought a helicopter and don’t have it yet? Would you like to track its assembly process? \n(You will be able to do it later, too.)")
                 .font(Font.custom("Inter28pt-Regular", size: 14))
                 .foregroundStyle(Color("Black"))
                 .multilineTextAlignment(.center)
@@ -84,7 +87,7 @@ struct HeliTrackView: View {
                     // actiomn
                 }
             }
-            .padding(.top, 20)
+            .padding(.top, 24)
             .padding(.horizontal,80)
                 
             Spacer()
@@ -97,7 +100,7 @@ struct HeliTrackView: View {
     var OrderTrackerSecondStageView: some View {
         
         
-        VStack (spacing: 10) {
+        VStack (spacing: 0) {
             
             
             HStack {
@@ -105,10 +108,11 @@ struct HeliTrackView: View {
                     .resizable()
                     .scaledToFit()
                     .frame(width: 44, height: 44)
-                .padding(.bottom,20)
+                
                 
                 Spacer()
             }
+            .padding(.bottom,12)
             
             HStack {
                 Text("ROBINSON HELICOPTER ORDER TRACKER")
@@ -118,6 +122,7 @@ struct HeliTrackView: View {
                 
                 Spacer()
             }
+            .padding(.bottom,24)
             
             HStack {
                 Text("Enter Serial number")
@@ -135,7 +140,7 @@ struct HeliTrackView: View {
                     // actiomn
                 }
             }
-            .padding(.top, 20)
+            .padding(.top, 4)
             
             HStack {
                 
@@ -144,6 +149,7 @@ struct HeliTrackView: View {
                     .scaledToFit()
                 
                 Text("or")
+                    .font(Font.custom("Inter28pt-SemiBold", size: 12))
                     .foregroundStyle(Color("DarkCreamV3"))
                     .padding(.horizontal,5)
                 
@@ -153,8 +159,8 @@ struct HeliTrackView: View {
                     .scaledToFit()
                 
             }
-            .padding(.top, 30)
-            .padding(.bottom, 30)
+            .padding(.top, 32)
+            .padding(.bottom, 32)
             
             CustomButton(title: "Scan code", icon: "scancream", isIcon: true, backcolor: Color("Blue"), textcolor: Color("Cream"), bordercolor: Color("Blue")) {
                 // action
@@ -174,7 +180,7 @@ struct HeliTrackView: View {
                 
                 Spacer()
             }
-            .padding(.vertical,30)
+            .padding(.vertical,46)
                 
            
         }
@@ -190,6 +196,7 @@ struct HeliTrackView: View {
                 .fill(Color("Black"))
                 .opacity(0.4)
                 .ignoresSafeArea()
+            
             
             ZStack {
                 
@@ -213,37 +220,43 @@ struct HeliTrackView: View {
                             // action
                         }, label: {
                             Image("x")
+                                .renderingMode(.template) // Set rendering mode to template
+                                .foregroundColor(Color("DarkCreamV3"))
                                 
                         })
                         
                     }
-                    
-                    Text("Are you sure you want to remove ‘Ben Smith’ account?")
-                        .foregroundStyle(Color("Black"))
-                        .font(Font.custom("Inter28pt-SemiBold", size: 14))
-                        .multilineTextAlignment(.center)
-                        .padding(.bottom,12)
-                
+                    .padding(.bottom,-8)
                     
                     HStack {
-                        CustomButton(title: "Yes", icon: "", backcolor: Color("Cream"), textcolor: Color("Blue"), bordercolor: Color("Cream")) {
-                            // actiomn
-                        }
-                        
-                        CustomButton(title: "No", icon: "", backcolor: Color("Yellow"), textcolor: Color("Blue"), bordercolor: Color("Yellow")) {
-                            // actiomn
-                        }
+                        Text("Where to find the serial number")
+                            .foregroundStyle(Color("Black"))
+                            .font(Font.custom("Inter28pt-SemiBold", size: 16))
+                            .multilineTextAlignment(.center)
+                        .padding(.bottom,12)
+                        Spacer()
                     }
+                    .padding(.bottom,-6)
+                    
+                    HStack {
+                        Text("You can find it on the Confirmation Letter issued after the deposit is received and the order confirmed, or engraved on a small metal plate on the right hand lower side of your helicopter.")
+                            .font(Font.custom("Inter28pt-Light", size: 12))
+                            .foregroundStyle(Color("Black"))
+                        
+                        Spacer()
+                    }
+                    .padding(.bottom,16)
+                
+                    Image("serialtrackerimage")
+                        .resizable()
+                        .scaledToFit()
+                   
                     
                 }
                 .padding(15)
                 
-                   
-                
             }
             .padding(.horizontal,20)
-            
-            
             
         }
     }

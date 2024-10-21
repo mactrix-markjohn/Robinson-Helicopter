@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		041496AE2CC558F600BE03DA /* CustomButtonWithFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041496AD2CC558F600BE03DA /* CustomButtonWithFrame.swift */; };
+		041496B02CC6A5DC00BE03DA /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041496AF2CC6A5DC00BE03DA /* MainTabView.swift */; };
+		041496B22CC6A69F00BE03DA /* MyFleetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041496B12CC6A69F00BE03DA /* MyFleetView.swift */; };
+		041496B42CC6A6C400BE03DA /* CommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041496B32CC6A6C400BE03DA /* CommunityView.swift */; };
+		041496B62CC6A6F800BE03DA /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041496B52CC6A6F800BE03DA /* ShopView.swift */; };
+		041496B82CC6A72D00BE03DA /* MyAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041496B72CC6A72D00BE03DA /* MyAccountView.swift */; };
 		04678E9D2CBEF9450011C28B /* InterSemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04678E982CBEF9450011C28B /* InterSemiBold.ttf */; };
 		04678E9E2CBEF9460011C28B /* ShapiroSuper.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04678E992CBEF9450011C28B /* ShapiroSuper.otf */; };
 		04678E9F2CBEF9460011C28B /* ShapiroHeavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04678E9A2CBEF9450011C28B /* ShapiroHeavy.otf */; };
@@ -36,6 +41,11 @@
 
 /* Begin PBXFileReference section */
 		041496AD2CC558F600BE03DA /* CustomButtonWithFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonWithFrame.swift; sourceTree = "<group>"; };
+		041496AF2CC6A5DC00BE03DA /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		041496B12CC6A69F00BE03DA /* MyFleetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFleetView.swift; sourceTree = "<group>"; };
+		041496B32CC6A6C400BE03DA /* CommunityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityView.swift; sourceTree = "<group>"; };
+		041496B52CC6A6F800BE03DA /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		041496B72CC6A72D00BE03DA /* MyAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountView.swift; sourceTree = "<group>"; };
 		04678E982CBEF9450011C28B /* InterSemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = InterSemiBold.ttf; sourceTree = "<group>"; };
 		04678E992CBEF9450011C28B /* ShapiroSuper.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ShapiroSuper.otf; sourceTree = "<group>"; };
 		04678E9A2CBEF9450011C28B /* ShapiroHeavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ShapiroHeavy.otf; sourceTree = "<group>"; };
@@ -139,7 +149,12 @@
 				04C22B612CBDBAC000B9F748 /* PreviousAccView.swift */,
 				04C22B632CBDBAEC00B9F748 /* ForgotPassView.swift */,
 				04C22B652CBDBB1500B9F748 /* HeliTrackView.swift */,
+				041496AF2CC6A5DC00BE03DA /* MainTabView.swift */,
 				04C22B672CBDBB3000B9F748 /* HomeView.swift */,
+				041496B12CC6A69F00BE03DA /* MyFleetView.swift */,
+				041496B32CC6A6C400BE03DA /* CommunityView.swift */,
+				041496B52CC6A6F800BE03DA /* ShopView.swift */,
+				041496B72CC6A72D00BE03DA /* MyAccountView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -260,8 +275,11 @@
 				04C22B662CBDBB1500B9F748 /* HeliTrackView.swift in Sources */,
 				04DAEEC82CC287CA00F1E5E6 /* CustomTabButton.swift in Sources */,
 				04C22B622CBDBAC000B9F748 /* PreviousAccView.swift in Sources */,
+				041496B02CC6A5DC00BE03DA /* MainTabView.swift in Sources */,
 				04C22B682CBDBB3000B9F748 /* HomeView.swift in Sources */,
+				041496B42CC6A6C400BE03DA /* CommunityView.swift in Sources */,
 				04C22B642CBDBAEC00B9F748 /* ForgotPassView.swift in Sources */,
+				041496B82CC6A72D00BE03DA /* MyAccountView.swift in Sources */,
 				04DAEEC22CBFDB8600F1E5E6 /* CustomNoBackButton.swift in Sources */,
 				041496AE2CC558F600BE03DA /* CustomButtonWithFrame.swift in Sources */,
 				04C22B482CBD956000B9F748 /* Robinson_HelicopterApp.swift in Sources */,
@@ -271,7 +289,9 @@
 				04C22B602CBDBA9C00B9F748 /* SignUpView.swift in Sources */,
 				04C22B5E2CBDBA6600B9F748 /* EnableAccessView.swift in Sources */,
 				04DAEEC62CC23FC800F1E5E6 /* CustomPopUpButton.swift in Sources */,
+				041496B22CC6A69F00BE03DA /* MyFleetView.swift in Sources */,
 				04DAEEC42CC1A31400F1E5E6 /* CustomTitleBodyButton.swift in Sources */,
+				041496B62CC6A6F800BE03DA /* ShopView.swift in Sources */,
 				04DAEEBB2CBF037200F1E5E6 /* StringHolder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
