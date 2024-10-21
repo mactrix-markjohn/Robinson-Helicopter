@@ -22,28 +22,102 @@ struct HomeView: View {
                 VStack {
                     
                     HStack{
-                        HStack{}
+                        HStack{
+                            
+                            ZStack {
+                                
+                                Circle()
+                                    .fill(.lightBlueV2)
+                                    .frame(width: 30, height: 30)
+                                
+                                Text("BS")
+                                    .font(Font.custom("Shapiro-75HeavyText", size: 10))
+                                    .foregroundStyle(Color("Blue"))
+                                
+                                
+                                
+                            }
+                            
+                            
+                            Text("Hi, Ben!")
+                                .foregroundStyle(Color("Black"))
+                                .font(Font.custom("Inter28pt-SemiBold", size: 14))
+                            
+                            Button(action: {
+                                // action
+                            }, label: {
+                                
+                                Image("cheveron-right")
+                                    .resizable()
+                                    .renderingMode(.template)
+                                    .foregroundColor(Color("Black"))
+                                    .frame(width: 16, height: 14)
+                                    
+                                    
+                            })
+                            
+                        }
                         
                         Spacer()
                         
-                        HStack{}
+                        HStack{
+                            
+                            Button(action: {
+                                // action
+                            }, label: {
+                                Image("sparkles")
+                                    .renderingMode(.template) // Set rendering mode to template
+                                    .foregroundColor(Color("Blue"))
+                                    
+                            })
+                            
+                            Button(action: {
+                                // action
+                            }, label: {
+                                Image("bell")
+                                    .renderingMode(.template) // Set rendering mode to template
+                                    .foregroundColor(Color("Blue"))
+                                    
+                            })
+                        }
                     }
+                    .padding(.bottom,12)
+                    
+                    
+                    
+                    
                     
                     HStack {
                         
+                        Text("PARTS CATALOG")
+                            .font(Font.custom("Shapiro-75HeavyText", size: 14))
+                            .foregroundStyle(Color("DeepBlue"))
+                        
+                        Spacer()
+                        
+                        CustomNoBackButton(title: "Shop Parts", textcolor: Color("Blue"), textSize: 12) {
+                            // action
+                        }
+                        
+                       
+                        
                     }
+                    
+                    
                     
                     ZStack {
                         TextField("Search Parts", text: $value)
                             .textFieldStyle(PlainTextFieldStyle()) // Use PlainTextFieldStyle for no padding
+                            .foregroundStyle(Color("DarkCreamV4"))
                             .autocapitalization(.none)
                             .padding(.top,14)
                             .padding(.bottom,14)
                             .padding(.leading,40)
                             .padding(.trailing,20)
                             .frame(height: 40)
-                            .font(.custom("Inter28pt-Light", size: 12))
+                            .font(.custom("Inter28pt-Regular", size: 12))
                             .background(Color("LightCream")) // Optional: Background color for visibility
+                        
                             .cornerRadius(50)
                             .overlay(
                                 RoundedRectangle(cornerRadius: 50)
