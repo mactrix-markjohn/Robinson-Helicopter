@@ -18,6 +18,7 @@
 		04678E9F2CBEF9460011C28B /* ShapiroHeavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04678E9A2CBEF9450011C28B /* ShapiroHeavy.otf */; };
 		04678EA02CBEF9460011C28B /* InterLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04678E9B2CBEF9450011C28B /* InterLight.ttf */; };
 		04678EA12CBEF9460011C28B /* InterRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04678E9C2CBEF9450011C28B /* InterRegular.ttf */; };
+		04B5FC282CC7661500A0E3E1 /* CustomCircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5FC272CC7661500A0E3E1 /* CustomCircleImage.swift */; };
 		04C22B482CBD956000B9F748 /* Robinson_HelicopterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C22B472CBD956000B9F748 /* Robinson_HelicopterApp.swift */; };
 		04C22B4A2CBD956000B9F748 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C22B492CBD956000B9F748 /* ContentView.swift */; };
 		04C22B4C2CBD956300B9F748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C22B4B2CBD956300B9F748 /* Assets.xcassets */; };
@@ -52,6 +53,7 @@
 		04678E9B2CBEF9450011C28B /* InterLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = InterLight.ttf; sourceTree = "<group>"; };
 		04678E9C2CBEF9450011C28B /* InterRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = InterRegular.ttf; sourceTree = "<group>"; };
 		04678EA22CBEF9710011C28B /* Robinson-Helicopter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Robinson-Helicopter-Info.plist"; sourceTree = SOURCE_ROOT; };
+		04B5FC272CC7661500A0E3E1 /* CustomCircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleImage.swift; sourceTree = "<group>"; };
 		04C22B442CBD956000B9F748 /* Robinson Helicopter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Robinson Helicopter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C22B472CBD956000B9F748 /* Robinson_HelicopterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Robinson_HelicopterApp.swift; sourceTree = "<group>"; };
 		04C22B492CBD956000B9F748 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 				04DAEEC52CC23FC800F1E5E6 /* CustomPopUpButton.swift */,
 				04DAEEC72CC287CA00F1E5E6 /* CustomTabButton.swift */,
 				041496AD2CC558F600BE03DA /* CustomButtonWithFrame.swift */,
+				04B5FC272CC7661500A0E3E1 /* CustomCircleImage.swift */,
 			);
 			path = SubViews;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 			files = (
 				04DAEEC02CBF29F500F1E5E6 /* CustomButton.swift in Sources */,
 				04C22B4A2CBD956000B9F748 /* ContentView.swift in Sources */,
+				04B5FC282CC7661500A0E3E1 /* CustomCircleImage.swift in Sources */,
 				04C22B662CBDBB1500B9F748 /* HeliTrackView.swift in Sources */,
 				04DAEEC82CC287CA00F1E5E6 /* CustomTabButton.swift in Sources */,
 				04C22B622CBDBAC000B9F748 /* PreviousAccView.swift in Sources */,

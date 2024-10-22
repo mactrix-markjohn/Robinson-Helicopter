@@ -56,6 +56,7 @@ struct CustomTitleBodyButton: View {
                         // Camera image on top
                         Image(mainicon)
                             .resizable()
+                            .renderingMode(.template)
                             .scaledToFit()
                             .frame(width: 16.67, height: 16.67)
                             .foregroundColor(mainiconcolor)
