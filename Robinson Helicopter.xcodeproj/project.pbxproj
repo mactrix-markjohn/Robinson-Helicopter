@@ -31,6 +31,10 @@
 		04C22B642CBDBAEC00B9F748 /* ForgotPassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C22B632CBDBAEC00B9F748 /* ForgotPassView.swift */; };
 		04C22B662CBDBB1500B9F748 /* HeliTrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C22B652CBDBB1500B9F748 /* HeliTrackView.swift */; };
 		04C22B682CBDBB3000B9F748 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C22B672CBDBB3000B9F748 /* HomeView.swift */; };
+		04D4DF622CC81377004C7A29 /* CustomTextAndCheveronButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4DF612CC81377004C7A29 /* CustomTextAndCheveronButton.swift */; };
+		04D4DF642CC8265B004C7A29 /* CustomProductsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4DF632CC8265B004C7A29 /* CustomProductsButton.swift */; };
+		04D4DF662CC8389A004C7A29 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4DF652CC8389A004C7A29 /* Line.swift */; };
+		04D4DF682CC84204004C7A29 /* HeliTrackItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4DF672CC84204004C7A29 /* HeliTrackItem.swift */; };
 		04DAEEBB2CBF037200F1E5E6 /* StringHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DAEEBA2CBF037200F1E5E6 /* StringHolder.swift */; };
 		04DAEEBE2CBF202A00F1E5E6 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DAEEBD2CBF202A00F1E5E6 /* CustomTextField.swift */; };
 		04DAEEC02CBF29F500F1E5E6 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DAEEBF2CBF29F500F1E5E6 /* CustomButton.swift */; };
@@ -38,6 +42,8 @@
 		04DAEEC42CC1A31400F1E5E6 /* CustomTitleBodyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DAEEC32CC1A31300F1E5E6 /* CustomTitleBodyButton.swift */; };
 		04DAEEC62CC23FC800F1E5E6 /* CustomPopUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DAEEC52CC23FC800F1E5E6 /* CustomPopUpButton.swift */; };
 		04DAEEC82CC287CA00F1E5E6 /* CustomTabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DAEEC72CC287CA00F1E5E6 /* CustomTabButton.swift */; };
+		04F2860B2CC9814500BE2A9C /* NotificationItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F2860A2CC9814500BE2A9C /* NotificationItems.swift */; };
+		04F2860D2CC9992700BE2A9C /* CustomToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F2860C2CC9992700BE2A9C /* CustomToggleStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +73,10 @@
 		04C22B632CBDBAEC00B9F748 /* ForgotPassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassView.swift; sourceTree = "<group>"; };
 		04C22B652CBDBB1500B9F748 /* HeliTrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeliTrackView.swift; sourceTree = "<group>"; };
 		04C22B672CBDBB3000B9F748 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		04D4DF612CC81377004C7A29 /* CustomTextAndCheveronButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextAndCheveronButton.swift; sourceTree = "<group>"; };
+		04D4DF632CC8265B004C7A29 /* CustomProductsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProductsButton.swift; sourceTree = "<group>"; };
+		04D4DF652CC8389A004C7A29 /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		04D4DF672CC84204004C7A29 /* HeliTrackItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeliTrackItem.swift; sourceTree = "<group>"; };
 		04DAEEBA2CBF037200F1E5E6 /* StringHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringHolder.swift; sourceTree = "<group>"; };
 		04DAEEBD2CBF202A00F1E5E6 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		04DAEEBF2CBF29F500F1E5E6 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
@@ -74,6 +84,8 @@
 		04DAEEC32CC1A31300F1E5E6 /* CustomTitleBodyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTitleBodyButton.swift; sourceTree = "<group>"; };
 		04DAEEC52CC23FC800F1E5E6 /* CustomPopUpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPopUpButton.swift; sourceTree = "<group>"; };
 		04DAEEC72CC287CA00F1E5E6 /* CustomTabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabButton.swift; sourceTree = "<group>"; };
+		04F2860A2CC9814500BE2A9C /* NotificationItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationItems.swift; sourceTree = "<group>"; };
+		04F2860C2CC9992700BE2A9C /* CustomToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToggleStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +183,7 @@
 		04C22B572CBDB94C00B9F748 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				04D4DF672CC84204004C7A29 /* HeliTrackItem.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -179,6 +192,8 @@
 			isa = PBXGroup;
 			children = (
 				04DAEEBA2CBF037200F1E5E6 /* StringHolder.swift */,
+				04D4DF652CC8389A004C7A29 /* Line.swift */,
+				04F2860C2CC9992700BE2A9C /* CustomToggleStyle.swift */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -194,6 +209,9 @@
 				04DAEEC72CC287CA00F1E5E6 /* CustomTabButton.swift */,
 				041496AD2CC558F600BE03DA /* CustomButtonWithFrame.swift */,
 				04B5FC272CC7661500A0E3E1 /* CustomCircleImage.swift */,
+				04D4DF612CC81377004C7A29 /* CustomTextAndCheveronButton.swift */,
+				04D4DF632CC8265B004C7A29 /* CustomProductsButton.swift */,
+				04F2860A2CC9814500BE2A9C /* NotificationItems.swift */,
 			);
 			path = SubViews;
 			sourceTree = "<group>";
@@ -275,23 +293,29 @@
 			files = (
 				04DAEEC02CBF29F500F1E5E6 /* CustomButton.swift in Sources */,
 				04C22B4A2CBD956000B9F748 /* ContentView.swift in Sources */,
+				04F2860D2CC9992700BE2A9C /* CustomToggleStyle.swift in Sources */,
 				04B5FC282CC7661500A0E3E1 /* CustomCircleImage.swift in Sources */,
 				04C22B662CBDBB1500B9F748 /* HeliTrackView.swift in Sources */,
 				04DAEEC82CC287CA00F1E5E6 /* CustomTabButton.swift in Sources */,
 				04C22B622CBDBAC000B9F748 /* PreviousAccView.swift in Sources */,
 				041496B02CC6A5DC00BE03DA /* MainTabView.swift in Sources */,
+				04F2860B2CC9814500BE2A9C /* NotificationItems.swift in Sources */,
 				04C22B682CBDBB3000B9F748 /* HomeView.swift in Sources */,
+				04D4DF682CC84204004C7A29 /* HeliTrackItem.swift in Sources */,
 				041496B42CC6A6C400BE03DA /* CommunityView.swift in Sources */,
 				04C22B642CBDBAEC00B9F748 /* ForgotPassView.swift in Sources */,
 				041496B82CC6A72D00BE03DA /* MyAccountView.swift in Sources */,
+				04D4DF622CC81377004C7A29 /* CustomTextAndCheveronButton.swift in Sources */,
 				04DAEEC22CBFDB8600F1E5E6 /* CustomNoBackButton.swift in Sources */,
 				041496AE2CC558F600BE03DA /* CustomButtonWithFrame.swift in Sources */,
 				04C22B482CBD956000B9F748 /* Robinson_HelicopterApp.swift in Sources */,
+				04D4DF662CC8389A004C7A29 /* Line.swift in Sources */,
 				04C22B5C2CBDBA0600B9F748 /* LoginView.swift in Sources */,
 				04C22B5A2CBDB9E600B9F748 /* SplashView.swift in Sources */,
 				04DAEEBE2CBF202A00F1E5E6 /* CustomTextField.swift in Sources */,
 				04C22B602CBDBA9C00B9F748 /* SignUpView.swift in Sources */,
 				04C22B5E2CBDBA6600B9F748 /* EnableAccessView.swift in Sources */,
+				04D4DF642CC8265B004C7A29 /* CustomProductsButton.swift in Sources */,
 				04DAEEC62CC23FC800F1E5E6 /* CustomPopUpButton.swift in Sources */,
 				041496B22CC6A69F00BE03DA /* MyFleetView.swift in Sources */,
 				04DAEEC42CC1A31400F1E5E6 /* CustomTitleBodyButton.swift in Sources */,

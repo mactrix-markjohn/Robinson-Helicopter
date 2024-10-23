@@ -239,7 +239,7 @@ struct HeliTrackView: View {
                     .padding(.bottom,-6)
                     
                     HStack {
-                        Text("You can find it on the Confirmation Letter issued after the deposit is received and the order confirmed, or engraved on a small metal plate on the right hand lower side of your helicopter.")
+                        Text("You can find it on the Confirmation Letter issued after\nthe deposit is received and the order confirmed, or\nengraved on a small metal plate on the right hand lower\nside of your helicopter.")
                             .font(Font.custom("Inter28pt-Light", size: 12))
                             .foregroundStyle(Color("Black"))
                         
