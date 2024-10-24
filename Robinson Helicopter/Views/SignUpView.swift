@@ -85,6 +85,7 @@ struct SignUpView: View {
                         .scaledToFit()
                     
                     Text("or")
+                        .font(Font.custom("Inter28pt-SemiBold", size: 12))
                         .foregroundStyle(Color("DarkCreamV3"))
                         .padding(.horizontal,5)
                     

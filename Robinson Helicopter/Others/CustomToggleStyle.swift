@@ -21,7 +21,7 @@ struct CustomToggleStyle: ToggleStyle {
             Spacer()
             RoundedRectangle(cornerRadius: 16)
                 .fill(configuration.isOn ? onColor : offColor)
-                .frame(width: 36, height: 20) // Adjust size here
+                .frame(width: 38, height: 20) // Adjust size here
                 .overlay(
                     Circle()
                         .fill(thumbColor)

@@ -18,6 +18,11 @@
 		04678E9F2CBEF9460011C28B /* ShapiroHeavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04678E9A2CBEF9450011C28B /* ShapiroHeavy.otf */; };
 		04678EA02CBEF9460011C28B /* InterLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04678E9B2CBEF9450011C28B /* InterLight.ttf */; };
 		04678EA12CBEF9460011C28B /* InterRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04678E9C2CBEF9450011C28B /* InterRegular.ttf */; };
+		04A0FCAF2CCA7B6E009C3B77 /* CustomDropDownTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A0FCAE2CCA7B6E009C3B77 /* CustomDropDownTextField.swift */; };
+		04A0FCB22CCA8E62009C3B77 /* FindDealerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A0FCB12CCA8E62009C3B77 /* FindDealerView.swift */; };
+		04A0FCB42CCAC606009C3B77 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A0FCB32CCAC606009C3B77 /* NotificationView.swift */; };
+		04A0FCB62CCAC62C009C3B77 /* NotificationSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A0FCB52CCAC62C009C3B77 /* NotificationSettingsView.swift */; };
+		04A0FCB82CCACADF009C3B77 /* ResultOfDealerSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A0FCB72CCACADF009C3B77 /* ResultOfDealerSearch.swift */; };
 		04B5FC282CC7661500A0E3E1 /* CustomCircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5FC272CC7661500A0E3E1 /* CustomCircleImage.swift */; };
 		04C22B482CBD956000B9F748 /* Robinson_HelicopterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C22B472CBD956000B9F748 /* Robinson_HelicopterApp.swift */; };
 		04C22B4A2CBD956000B9F748 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C22B492CBD956000B9F748 /* ContentView.swift */; };
@@ -59,6 +64,11 @@
 		04678E9B2CBEF9450011C28B /* InterLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = InterLight.ttf; sourceTree = "<group>"; };
 		04678E9C2CBEF9450011C28B /* InterRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = InterRegular.ttf; sourceTree = "<group>"; };
 		04678EA22CBEF9710011C28B /* Robinson-Helicopter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Robinson-Helicopter-Info.plist"; sourceTree = SOURCE_ROOT; };
+		04A0FCAE2CCA7B6E009C3B77 /* CustomDropDownTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDropDownTextField.swift; sourceTree = "<group>"; };
+		04A0FCB12CCA8E62009C3B77 /* FindDealerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDealerView.swift; sourceTree = "<group>"; };
+		04A0FCB32CCAC606009C3B77 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		04A0FCB52CCAC62C009C3B77 /* NotificationSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettingsView.swift; sourceTree = "<group>"; };
+		04A0FCB72CCACADF009C3B77 /* ResultOfDealerSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultOfDealerSearch.swift; sourceTree = "<group>"; };
 		04B5FC272CC7661500A0E3E1 /* CustomCircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleImage.swift; sourceTree = "<group>"; };
 		04C22B442CBD956000B9F748 /* Robinson Helicopter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Robinson Helicopter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C22B472CBD956000B9F748 /* Robinson_HelicopterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Robinson_HelicopterApp.swift; sourceTree = "<group>"; };
@@ -111,6 +121,17 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		04A0FCB02CCA8E45009C3B77 /* HomeViewSubViews */ = {
+			isa = PBXGroup;
+			children = (
+				04A0FCB12CCA8E62009C3B77 /* FindDealerView.swift */,
+				04A0FCB32CCAC606009C3B77 /* NotificationView.swift */,
+				04A0FCB52CCAC62C009C3B77 /* NotificationSettingsView.swift */,
+				04A0FCB72CCACADF009C3B77 /* ResultOfDealerSearch.swift */,
+			);
+			path = HomeViewSubViews;
+			sourceTree = "<group>";
+		};
 		04C22B3B2CBD956000B9F748 = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +177,7 @@
 		04C22B552CBDB2BB00B9F748 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				04A0FCB02CCA8E45009C3B77 /* HomeViewSubViews */,
 				04C22B592CBDB9E600B9F748 /* SplashView.swift */,
 				04C22B5B2CBDBA0600B9F748 /* LoginView.swift */,
 				04C22B5D2CBDBA6600B9F748 /* EnableAccessView.swift */,
@@ -183,6 +205,7 @@
 		04C22B572CBDB94C00B9F748 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				04F2860A2CC9814500BE2A9C /* NotificationItems.swift */,
 				04D4DF672CC84204004C7A29 /* HeliTrackItem.swift */,
 			);
 			path = ViewModels;
@@ -211,7 +234,7 @@
 				04B5FC272CC7661500A0E3E1 /* CustomCircleImage.swift */,
 				04D4DF612CC81377004C7A29 /* CustomTextAndCheveronButton.swift */,
 				04D4DF632CC8265B004C7A29 /* CustomProductsButton.swift */,
-				04F2860A2CC9814500BE2A9C /* NotificationItems.swift */,
+				04A0FCAE2CCA7B6E009C3B77 /* CustomDropDownTextField.swift */,
 			);
 			path = SubViews;
 			sourceTree = "<group>";
@@ -298,15 +321,19 @@
 				04C22B662CBDBB1500B9F748 /* HeliTrackView.swift in Sources */,
 				04DAEEC82CC287CA00F1E5E6 /* CustomTabButton.swift in Sources */,
 				04C22B622CBDBAC000B9F748 /* PreviousAccView.swift in Sources */,
+				04A0FCAF2CCA7B6E009C3B77 /* CustomDropDownTextField.swift in Sources */,
 				041496B02CC6A5DC00BE03DA /* MainTabView.swift in Sources */,
 				04F2860B2CC9814500BE2A9C /* NotificationItems.swift in Sources */,
 				04C22B682CBDBB3000B9F748 /* HomeView.swift in Sources */,
 				04D4DF682CC84204004C7A29 /* HeliTrackItem.swift in Sources */,
 				041496B42CC6A6C400BE03DA /* CommunityView.swift in Sources */,
 				04C22B642CBDBAEC00B9F748 /* ForgotPassView.swift in Sources */,
+				04A0FCB42CCAC606009C3B77 /* NotificationView.swift in Sources */,
+				04A0FCB82CCACADF009C3B77 /* ResultOfDealerSearch.swift in Sources */,
 				041496B82CC6A72D00BE03DA /* MyAccountView.swift in Sources */,
 				04D4DF622CC81377004C7A29 /* CustomTextAndCheveronButton.swift in Sources */,
 				04DAEEC22CBFDB8600F1E5E6 /* CustomNoBackButton.swift in Sources */,
+				04A0FCB62CCAC62C009C3B77 /* NotificationSettingsView.swift in Sources */,
 				041496AE2CC558F600BE03DA /* CustomButtonWithFrame.swift in Sources */,
 				04C22B482CBD956000B9F748 /* Robinson_HelicopterApp.swift in Sources */,
 				04D4DF662CC8389A004C7A29 /* Line.swift in Sources */,
@@ -314,6 +341,7 @@
 				04C22B5A2CBDB9E600B9F748 /* SplashView.swift in Sources */,
 				04DAEEBE2CBF202A00F1E5E6 /* CustomTextField.swift in Sources */,
 				04C22B602CBDBA9C00B9F748 /* SignUpView.swift in Sources */,
+				04A0FCB22CCA8E62009C3B77 /* FindDealerView.swift in Sources */,
 				04C22B5E2CBDBA6600B9F748 /* EnableAccessView.swift in Sources */,
 				04D4DF642CC8265B004C7A29 /* CustomProductsButton.swift in Sources */,
 				04DAEEC62CC23FC800F1E5E6 /* CustomPopUpButton.swift in Sources */,

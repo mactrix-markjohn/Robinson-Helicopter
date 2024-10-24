@@ -36,8 +36,8 @@ struct HeliTrackView: View {
                 
                 // View: Order tracking views
                 
-                OrderTrackerFirstStageView
-                //OrderTrackerSecondStageView
+                //OrderTrackerFirstStageView
+                OrderTrackerSecondStageView
                 Spacer()
                 
             }.padding(.horizontal,30)
