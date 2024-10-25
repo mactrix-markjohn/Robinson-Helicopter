@@ -23,6 +23,9 @@
 		04A0FCB42CCAC606009C3B77 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A0FCB32CCAC606009C3B77 /* NotificationView.swift */; };
 		04A0FCB62CCAC62C009C3B77 /* NotificationSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A0FCB52CCAC62C009C3B77 /* NotificationSettingsView.swift */; };
 		04A0FCB82CCACADF009C3B77 /* ResultOfDealerSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A0FCB72CCACADF009C3B77 /* ResultOfDealerSearch.swift */; };
+		04A0FCBA2CCAE199009C3B77 /* FIndDealerResultItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A0FCB92CCAE199009C3B77 /* FIndDealerResultItem.swift */; };
+		04A0FCBC2CCAE687009C3B77 /* MyDealerSystemCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A0FCBB2CCAE687009C3B77 /* MyDealerSystemCenter.swift */; };
+		04A0FCBE2CCB501A009C3B77 /* CustomBorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A0FCBD2CCB501A009C3B77 /* CustomBorderButton.swift */; };
 		04B5FC282CC7661500A0E3E1 /* CustomCircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5FC272CC7661500A0E3E1 /* CustomCircleImage.swift */; };
 		04C22B482CBD956000B9F748 /* Robinson_HelicopterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C22B472CBD956000B9F748 /* Robinson_HelicopterApp.swift */; };
 		04C22B4A2CBD956000B9F748 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C22B492CBD956000B9F748 /* ContentView.swift */; };
@@ -69,6 +72,9 @@
 		04A0FCB32CCAC606009C3B77 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		04A0FCB52CCAC62C009C3B77 /* NotificationSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettingsView.swift; sourceTree = "<group>"; };
 		04A0FCB72CCACADF009C3B77 /* ResultOfDealerSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultOfDealerSearch.swift; sourceTree = "<group>"; };
+		04A0FCB92CCAE199009C3B77 /* FIndDealerResultItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIndDealerResultItem.swift; sourceTree = "<group>"; };
+		04A0FCBB2CCAE687009C3B77 /* MyDealerSystemCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDealerSystemCenter.swift; sourceTree = "<group>"; };
+		04A0FCBD2CCB501A009C3B77 /* CustomBorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBorderButton.swift; sourceTree = "<group>"; };
 		04B5FC272CC7661500A0E3E1 /* CustomCircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleImage.swift; sourceTree = "<group>"; };
 		04C22B442CBD956000B9F748 /* Robinson Helicopter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Robinson Helicopter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C22B472CBD956000B9F748 /* Robinson_HelicopterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Robinson_HelicopterApp.swift; sourceTree = "<group>"; };
@@ -128,6 +134,7 @@
 				04A0FCB32CCAC606009C3B77 /* NotificationView.swift */,
 				04A0FCB52CCAC62C009C3B77 /* NotificationSettingsView.swift */,
 				04A0FCB72CCACADF009C3B77 /* ResultOfDealerSearch.swift */,
+				04A0FCBB2CCAE687009C3B77 /* MyDealerSystemCenter.swift */,
 			);
 			path = HomeViewSubViews;
 			sourceTree = "<group>";
@@ -207,6 +214,7 @@
 			children = (
 				04F2860A2CC9814500BE2A9C /* NotificationItems.swift */,
 				04D4DF672CC84204004C7A29 /* HeliTrackItem.swift */,
+				04A0FCB92CCAE199009C3B77 /* FIndDealerResultItem.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -235,6 +243,7 @@
 				04D4DF612CC81377004C7A29 /* CustomTextAndCheveronButton.swift */,
 				04D4DF632CC8265B004C7A29 /* CustomProductsButton.swift */,
 				04A0FCAE2CCA7B6E009C3B77 /* CustomDropDownTextField.swift */,
+				04A0FCBD2CCB501A009C3B77 /* CustomBorderButton.swift */,
 			);
 			path = SubViews;
 			sourceTree = "<group>";
@@ -318,6 +327,7 @@
 				04C22B4A2CBD956000B9F748 /* ContentView.swift in Sources */,
 				04F2860D2CC9992700BE2A9C /* CustomToggleStyle.swift in Sources */,
 				04B5FC282CC7661500A0E3E1 /* CustomCircleImage.swift in Sources */,
+				04A0FCBE2CCB501A009C3B77 /* CustomBorderButton.swift in Sources */,
 				04C22B662CBDBB1500B9F748 /* HeliTrackView.swift in Sources */,
 				04DAEEC82CC287CA00F1E5E6 /* CustomTabButton.swift in Sources */,
 				04C22B622CBDBAC000B9F748 /* PreviousAccView.swift in Sources */,
@@ -331,6 +341,7 @@
 				04A0FCB42CCAC606009C3B77 /* NotificationView.swift in Sources */,
 				04A0FCB82CCACADF009C3B77 /* ResultOfDealerSearch.swift in Sources */,
 				041496B82CC6A72D00BE03DA /* MyAccountView.swift in Sources */,
+				04A0FCBA2CCAE199009C3B77 /* FIndDealerResultItem.swift in Sources */,
 				04D4DF622CC81377004C7A29 /* CustomTextAndCheveronButton.swift in Sources */,
 				04DAEEC22CBFDB8600F1E5E6 /* CustomNoBackButton.swift in Sources */,
 				04A0FCB62CCAC62C009C3B77 /* NotificationSettingsView.swift in Sources */,
@@ -340,6 +351,7 @@
 				04C22B5C2CBDBA0600B9F748 /* LoginView.swift in Sources */,
 				04C22B5A2CBDB9E600B9F748 /* SplashView.swift in Sources */,
 				04DAEEBE2CBF202A00F1E5E6 /* CustomTextField.swift in Sources */,
+				04A0FCBC2CCAE687009C3B77 /* MyDealerSystemCenter.swift in Sources */,
 				04C22B602CBDBA9C00B9F748 /* SignUpView.swift in Sources */,
 				04A0FCB22CCA8E62009C3B77 /* FindDealerView.swift in Sources */,
 				04C22B5E2CBDBA6600B9F748 /* EnableAccessView.swift in Sources */,
