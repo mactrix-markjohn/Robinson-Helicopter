@@ -208,9 +208,56 @@ struct MyDealerSystemCenter: View {
             .scrollIndicators(.hidden)
             .padding(.horizontal,20)
             
-            
+            // Comfirmation dialog
+            RemoveDealerConfirmation
+                .opacity(0)
         }
         
+    }
+    
+    @ViewBuilder
+    var RemoveDealerConfirmation: some View {
+        ZStack {
+            Rectangle()
+                .fill(Color("Black"))
+                .opacity(0.4)
+                .ignoresSafeArea()
+            
+            ZStack {
+                
+                
+                RoundedRectangle(cornerRadius: 8)
+                    .fill(Color("Cream"))
+                
+                VStack {
+                    
+                    Text("Are you sure you want to delete\n‘Hillsboro Aviation, Inc’ from\nyour Dealers contacts?")
+                        .foregroundStyle(Color("Black"))
+                        .font(Font.custom("Inter28pt-SemiBold", size: 14))
+                        .multilineTextAlignment(.center)
+                        .padding(.bottom,12)
+                
+                    
+                    HStack {
+                        CustomButton(title: "Yes", icon: "", backcolor: Color("Cream"), textcolor: Color("Blue"), bordercolor: Color("Cream")) {
+                            // actiomn
+                        }
+                        
+                        CustomButton(title: "No", icon: "", backcolor: Color("Yellow"), textcolor: Color("Blue"), bordercolor: Color("Yellow")) {
+                            // actiomn
+                        }
+                    }
+                    
+                }
+                .padding(15)
+                
+                   
+                
+            }
+            .frame(width:266,height: 146)
+            
+            
+        }
     }
 
 }
