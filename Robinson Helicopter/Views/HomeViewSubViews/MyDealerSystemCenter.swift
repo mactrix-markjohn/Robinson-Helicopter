@@ -210,7 +210,7 @@ struct MyDealerSystemCenter: View {
             
             // Comfirmation dialog
             RemoveDealerConfirmation
-                .opacity(0)
+                .opacity(1)
         }
         
     }

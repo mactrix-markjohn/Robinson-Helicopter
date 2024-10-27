@@ -7,6 +7,15 @@
 
 import Foundation
 
+struct StringHolder {
+    static let FontInter28ptRegular = "Inter28pt-Regular"
+    static let FontInter28ptLight = "Inter28pt-Light"
+    static let FontInter28ptSemiBold = "Inter28pt-SemiBold"
+    static let FontShapiro75HeavyText = "Shapiro-75HeavyText"
+    static let FontShapiro95SuperExtd = "Shapiro-95SuperExtd"
+    
+}
+
 /*Inter 28pt
 -- Inter28pt-Regular
 -- Inter28pt-Light
