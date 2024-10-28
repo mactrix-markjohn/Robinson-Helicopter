@@ -237,10 +237,17 @@ struct HomeView: View {
                     
                     // Blue view for Find a Dealer
                     
-                    CustomTextAndCheveronButton(backcolor: Color("Blue"), bordercolor: Color("White"), subheading: "Looking for help?", subtextcolor: Color("Cream"), heading: "FIND A DEALER OR SERVICE CENTER", headtextcolor: Color("Cream"), iconcolor: Color("Cream")){
-                        // action
+                    ZStack {
+                        CustomTextAndCheveronButton(backcolor: Color("Blue"), bordercolor: Color("White"), subheading: "Looking for help?", subtextcolor: Color("Cream"), heading: "FIND A DEALER OR SERVICE CENTER", headtextcolor: Color("Cream"), iconcolor: Color("Cream")){
+                            // action
+                        }
+                        .padding(.vertical,16)
+                        
+                        
+                        // My Dealers and Service Centers
+                        MyDealerServceCenters
+                        
                     }
-                    .padding(.vertical,16)
                     
                     
                     // Join our Community
@@ -429,11 +436,406 @@ struct HomeView: View {
             //FindDealerView()
             
             
+            // More details on dealer
+            MoreDetailsOnDealers
+                .opacity(0)
+        }
+        
+        
+    }
+    
+    @ViewBuilder
+    var MyDealerServceCenters: some View {
+        
+        ZStack {
+            RoundedRectangle(cornerRadius: 8)
+                .fill(Color("Blue"))
+                .stroke(Color("White"), lineWidth: 1)
+            
+            VStack {
+                
+                HStack (spacing: 12){
+                    
+                    HStack {
+                        Text("MY DEALERS & SERVICE CENTERS")
+                            .font(Font.custom("Shapiro-75HeavyText", size: 14))
+                            .foregroundStyle(Color("Cream"))
+                        
+                        Spacer()
+                    }
+                    
+                    
+                    Button(action: {
+                        // action
+                    }, label: {
+                        Image("cheveron-right")
+                            .resizable()
+                            .renderingMode(.template) // Set rendering mode to template
+                            .foregroundColor(Color("Cream"))
+                            .frame(width: 20, height: 20)
+                        
+                        
+                    })
+                    
+                }
+                
+                // The top dealer and service centers
+                VStack (spacing: 10) {
+                    
+                    // Service Center
+                    HStack (spacing: 0) {
+                        ZStack {
+                            // Circle with a white background
+                            Circle()
+                                .fill(Color.white)
+                                .frame(width: 40, height: 40)
+                            
+                            // Camera image on top
+                            Image("users")
+                                .resizable()
+                                .renderingMode(.template)
+                                .scaledToFit()
+                                .frame(width: 16.67, height: 16.67)
+                                .foregroundColor(Color("Blue"))
+                            
+                        }.padding(.trailing,12)
+                        
+                        
+                        // Dealer name and details
+                        VStack (alignment:.leading) {
+                            
+                            Text("Hillsboro Aviation, Inc.")
+                                .font(Font.custom("Inter28pt-SemiBold", size: 12))
+                                .foregroundStyle(Color("Cream"))
+                            
+                            HStack {
+                                Text("Dealer • ")
+                                    .font(Font.custom("Inter28pt-Regular", size: 10))
+                                    .fontWeight(.bold)
+                                    .foregroundStyle(Color("DarkCreamV2"))
+                                + Text("Hillsboro, Portland, Oregon, USA.")
+                                    .font(Font.custom("Inter28pt-Regular", size: 10))
+                                    .foregroundStyle(Color("DarkCreamV2"))
+                            }
+                            
+                        }
+                        
+                        Spacer()
+                    }
+                    
+                    // Service Center
+                    
+                    HStack (spacing: 0) {
+                        ZStack {
+                            // Circle with a white background
+                            Circle()
+                                .fill(Color.white)
+                                .frame(width: 40, height: 40)
+                            
+                            // Camera image on top
+                            Image("settings")
+                                .resizable()
+                                .renderingMode(.template)
+                                .scaledToFit()
+                                .frame(width: 16.67, height: 16.67)
+                                .foregroundColor(Color("Blue"))
+                            
+                        }.padding(.trailing,12)
+                        
+                        
+                        // Dealer name and details
+                        VStack (alignment:.leading) {
+                            
+                            Text("Hillsboro Heli Academy")
+                                .font(Font.custom("Inter28pt-SemiBold", size: 12))
+                                .foregroundStyle(Color("Cream"))
+                            
+                            HStack {
+                                Text("Service Center • ")
+                                    .font(Font.custom("Inter28pt-Regular", size: 10))
+                                    .fontWeight(.bold)
+                                    .foregroundStyle(Color("DarkCreamV2"))
+                                + Text("Troutdale, Portland, Oregon, USA.")
+                                    .font(Font.custom("Inter28pt-Regular", size: 10))
+                                    .foregroundStyle(Color("DarkCreamV2"))
+                            }
+                            
+                        }
+                        
+                        Spacer()
+                    }
+                }
+                
+                
+                
+                
+                Spacer()
+                
+            }.padding(.horizontal,24)
+                .padding(.vertical,24)
+            
+            
+        }.padding(.vertical,16)
+    }
+    
+    @ViewBuilder
+    var MoreDetailsOnDealers: some View {
+        ZStack {
+            Rectangle()
+                .fill(Color("Black"))
+                .opacity(0.4)
+                .ignoresSafeArea()
+            
+            
+            
+            VStack {
+                
+                HStack {
+                    
+                    Spacer()
+                    
+                    Button(action: {
+                        // action
+                    }, label: {
+                        Image("bluexbutton")
+                    })
+                }.padding(.horizontal,24)
+                    .padding(.vertical,8)
+                
+                
+                ZStack {
+                    
+                    
+                    RoundedRectangle(cornerRadius: 8)
+                        .fill(Color("Cream"))
+                    
+                    VStack {
+                        
+                        HStack (alignment:.top){
+                            
+                            ZStack {
+                                // Circle with a white background
+                                Circle()
+                                    .fill(Color.white)
+                                    .frame(width: 40, height: 40)
+                                
+                                // Camera image on top
+                                Image("users")
+                                    .resizable()
+                                    .renderingMode(.template)
+                                    .scaledToFit()
+                                    .frame(width: 16.67, height: 16.67)
+                                    .foregroundColor(Color("Blue"))
+                                
+                            }.padding(.trailing,12)
+                            
+                            
+                            
+                            VStack {
+                                
+                                HStack {
+                                    
+                                    Text("Hillsboro Aviation, Inc.")
+                                        .font(Font.custom("Inter28pt-SemiBold", size: 14))
+                                        .foregroundStyle(Color("Blue"))
+                                    
+                                    Spacer()
+                                    
+                                }
+                                .padding(.bottom,8)
+                                
+                                HStack {
+                                    
+                                    // First column
+                                    VStack {
+                                        
+                                        // body 1
+                                        VStack {
+                                            HStack {
+                                                Text("Sales & Service")
+                                                    .font(Font.custom("Inter28pt-SemiBold", size: 10))
+                                                    .foregroundStyle(Color("LightGrey"))
+                                                
+                                                
+                                                Spacer()
+                                            }
+                                            
+                                            HStack {
+                                                Text("R66, R44, R22")
+                                                    .font(Font.custom("Inter28pt-SemiBold", size: 10))
+                                                    .foregroundStyle(Color("Black"))
+                                                
+                                                Spacer()
+                                            }
+                                            
+                                        }.padding(.bottom,8)
+                                        
+                                        // body 2
+                                        
+                                        
+                                        // body 3
+                                        VStack {
+                                            HStack {
+                                                Text("Phone")
+                                                    .font(Font.custom("Inter28pt-Regular", size: 10))
+                                                    .foregroundStyle(Color("LightGrey"))
+                                                
+                                                
+                                                Spacer()
+                                            }
+                                            
+                                            HStack {
+                                                Text("503-648-2831")
+                                                    .font(Font.custom("Inter28pt-Regular", size: 10))
+                                                    .foregroundStyle(Color("Black"))
+                                                
+                                                Spacer()
+                                            }
+                                            
+                                        }.padding(.bottom,8)
+                                        
+                                        
+                                    }
+                                    .frame(width: 85)
+                                    
+                                    
+                                    // Second column
+                                    VStack{
+                                        
+                                        // body 1
+                                        
+                                        VStack {
+                                            HStack {
+                                                Text("Location")
+                                                    .font(Font.custom("Inter28pt-Regular", size: 10))
+                                                    .foregroundStyle(Color("LightGrey"))
+                                                
+                                                
+                                                Spacer()
+                                            }
+                                            
+                                            HStack {
+                                                Text("Hillsboro, Oregon")
+                                                    .font(Font.custom("Inter28pt-Regular", size: 10))
+                                                    .foregroundStyle(Color("Black"))
+                                                
+                                                Spacer()
+                                            }
+                                            
+                                        }.padding(.bottom,8)
+                                        
+                                        
+                                        // body 2
+                                        VStack {
+                                            HStack {
+                                                Text("Fax")
+                                                    .font(Font.custom("Inter28pt-Regular", size: 10))
+                                                    .foregroundStyle(Color("LightGrey"))
+                                                
+                                                
+                                                Spacer()
+                                            }
+                                            
+                                            HStack {
+                                                Text("503-648-1886")
+                                                    .font(Font.custom("Inter28pt-Regular", size: 10))
+                                                    .foregroundStyle(Color("Black"))
+                                                
+                                                Spacer()
+                                            }
+                                            
+                                        }.padding(.bottom,8)
+                                        
+                                    }
+                                    
+                                    
+                                }
+                                
+                                // Email
+                                VStack {
+                                    HStack {
+                                        Text("Email")
+                                            .font(Font.custom("Inter28pt-Regular", size: 10))
+                                            .foregroundStyle(Color("LightGrey"))
+                                        
+                                        
+                                        Spacer()
+                                    }
+                                    
+                                    HStack {
+                                        Text("aircraftsales@hillsboroaviation.com")
+                                            .font(Font.custom("Inter28pt-Regular", size: 10))
+                                            .foregroundStyle(Color("Black"))
+                                            .tint(Color("Black"))
+                                        
+                                        
+                                        Spacer()
+                                    }
+                                    
+                                }.padding(.bottom,8)
+                                
+                                
+                                //Website
+                                VStack {
+                                    HStack {
+                                        Text("Website")
+                                            .font(Font.custom("Inter28pt-Regular", size: 10))
+                                            .foregroundStyle(Color("LightGrey"))
+                                        
+                                        
+                                        Spacer()
+                                    }
+                                    
+                                    HStack {
+                                        Text("www.hillsboroaviation.com")
+                                            .font(Font.custom("Inter28pt-Regular", size: 10))
+                                            .foregroundStyle(Color("Black"))
+                                            .tint(Color("Black"))
+                                        
+                                        Spacer()
+                                    }
+                                    
+                                }.padding(.bottom,8)
+                                
+                                
+                                
+                            }
+                            
+                        }
+                        
+                        
+                        Spacer()
+                        
+                    }
+                    .padding(24)
+                    
+                    
+                    
+                    
+                }
+                .frame(height: 212)
+                .padding(.horizontal,24)
+                
+                
+                HStack {
+                    
+                    Spacer()
+                    
+                    Button(action: {
+                        // action
+                    }, label: {
+                        Image("sharebtn")
+                    })
+                    
+                }.padding(.horizontal,24)
+                    .padding(.vertical,8)
+                
+            }
+            
+            
         }
     }
     
-    
-   
     
 }
 

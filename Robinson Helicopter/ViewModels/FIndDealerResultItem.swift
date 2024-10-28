@@ -14,7 +14,7 @@ struct FIndDealerResultItem: View {
     var body: some View {
         
         VStack {
-           
+            
             HStack (alignment:.top){
                 
                 ZStack {
@@ -30,6 +30,7 @@ struct FIndDealerResultItem: View {
                         .scaledToFit()
                         .frame(width: 16, height: 16)
                         .foregroundColor(Color("Blue"))
+                    
                 }.padding(.trailing,12)
                 
                 
@@ -161,7 +162,7 @@ struct FIndDealerResultItem: View {
                                         .font(Font.custom("Inter28pt-Regular", size: 10))
                                         .foregroundStyle(Color("Black"))
                                         .tint(Color("Black"))
-                                        
+                                    
                                     
                                     Spacer()
                                 }
@@ -222,7 +223,7 @@ struct FIndDealerResultItem: View {
                 }
                 
             }
-
+            
             
             Spacer()
             Rectangle()
@@ -231,7 +232,7 @@ struct FIndDealerResultItem: View {
                 .padding()
         }
         
-            }
+    }
 }
 
 #Preview {
