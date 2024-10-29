@@ -39,6 +39,7 @@
 		04C22B642CBDBAEC00B9F748 /* ForgotPassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C22B632CBDBAEC00B9F748 /* ForgotPassView.swift */; };
 		04C22B662CBDBB1500B9F748 /* HeliTrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C22B652CBDBB1500B9F748 /* HeliTrackView.swift */; };
 		04C22B682CBDBB3000B9F748 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C22B672CBDBB3000B9F748 /* HomeView.swift */; };
+		04C9E6D82CD1379A00ADB2E8 /* MyFleetItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C9E6D72CD1379A00ADB2E8 /* MyFleetItem.swift */; };
 		04D4DF622CC81377004C7A29 /* CustomTextAndCheveronButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4DF612CC81377004C7A29 /* CustomTextAndCheveronButton.swift */; };
 		04D4DF642CC8265B004C7A29 /* CustomProductsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4DF632CC8265B004C7A29 /* CustomProductsButton.swift */; };
 		04D4DF662CC8389A004C7A29 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4DF652CC8389A004C7A29 /* Line.swift */; };
@@ -89,6 +90,7 @@
 		04C22B632CBDBAEC00B9F748 /* ForgotPassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassView.swift; sourceTree = "<group>"; };
 		04C22B652CBDBB1500B9F748 /* HeliTrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeliTrackView.swift; sourceTree = "<group>"; };
 		04C22B672CBDBB3000B9F748 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		04C9E6D72CD1379A00ADB2E8 /* MyFleetItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFleetItem.swift; sourceTree = "<group>"; };
 		04D4DF612CC81377004C7A29 /* CustomTextAndCheveronButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextAndCheveronButton.swift; sourceTree = "<group>"; };
 		04D4DF632CC8265B004C7A29 /* CustomProductsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProductsButton.swift; sourceTree = "<group>"; };
 		04D4DF652CC8389A004C7A29 /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
@@ -215,6 +217,7 @@
 				04F2860A2CC9814500BE2A9C /* NotificationItems.swift */,
 				04D4DF672CC84204004C7A29 /* HeliTrackItem.swift */,
 				04A0FCB92CCAE199009C3B77 /* FIndDealerResultItem.swift */,
+				04C9E6D72CD1379A00ADB2E8 /* MyFleetItem.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 				04C22B482CBD956000B9F748 /* Robinson_HelicopterApp.swift in Sources */,
 				04D4DF662CC8389A004C7A29 /* Line.swift in Sources */,
 				04C22B5C2CBDBA0600B9F748 /* LoginView.swift in Sources */,
+				04C9E6D82CD1379A00ADB2E8 /* MyFleetItem.swift in Sources */,
 				04C22B5A2CBDB9E600B9F748 /* SplashView.swift in Sources */,
 				04DAEEBE2CBF202A00F1E5E6 /* CustomTextField.swift in Sources */,
 				04A0FCBC2CCAE687009C3B77 /* MyDealerSystemCenter.swift in Sources */,

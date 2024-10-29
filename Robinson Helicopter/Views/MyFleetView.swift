@@ -20,30 +20,23 @@ struct MyFleetView: View {
                     .fill(Color("Cream"))
                     .ignoresSafeArea()
                 
-                VStack {
+                
+                // Other contents
+                ZStack {
+                    // First view
+                    //AddFleetView
                     
-                    HStack {
-                        Text("MY FLEET")
-                            .font(Font.custom("Shapiro-75HeavyText", size: 24))
-                            .foregroundStyle(Color("Blue"))
-                        
-                        Spacer()
-                    }
+                    // Second view (Main view)
                     
-                    // Other contents
-                    ZStack {
-                        // First view
-                        OrderTrackerFirstStageView
-                        
-                        // Second view (Main view)
-                        
-                    }
+                    MyFleetMainView
                     
-                    
-                    
-                    Spacer()
                 }
                 .padding(.horizontal,16)
+                
+                
+                
+                
+                
                 
                 
             }
@@ -54,13 +47,13 @@ struct MyFleetView: View {
                     .fill(Color("Cream"))
                     .ignoresSafeArea()
                 
-                OrderTrackerSecondStageView
+                TrackFleetView
                     .padding(16)
                 
                 //InfoFindSerialNum
                 
             }
-            .opacity(1)
+            .opacity(0)
             
             
         }
@@ -68,12 +61,87 @@ struct MyFleetView: View {
     
     
     @ViewBuilder
-    var OrderTrackerFirstStageView: some View {
+    var MyFleetMainView: some View {
+        
+        VStack {
+            HStack {
+                Text("MY FLEET")
+                    .font(Font.custom("Shapiro-75HeavyText", size: 24))
+                    .foregroundStyle(Color("Blue"))
+                
+                Spacer()
+                
+                Button(action: {
+                    // action
+                }, label: {
+                    Image("plus")
+                        .resizable()
+                        .renderingMode(.template) // Set rendering mode to template
+                        .foregroundColor(Color("Blue"))
+                        .frame(width: 20, height: 20)
+                    
+                })
+            }
+            
+            HStack {
+                CustomBorderButton(title: "All", icon: "adjustments", isIcon: false, backcolor: Color("LightCream"), textcolor: Color("Black"), bordercolor: Color("DarkCreamV2"), widthBtn: 39, heightBtn: 28 ) {
+                    // action
+                }
+                CustomBorderButton(title: "R66", icon: "adjustments", isIcon: false, backcolor: Color("Cream"), textcolor: Color("Black"), bordercolor: Color("DarkCreamV2"), widthBtn: 48, heightBtn: 28 ) {
+                    // action
+                }
+                CustomBorderButton(title: "R44", icon: "adjustments", isIcon: false, backcolor: Color("Cream"), textcolor: Color("Black"), bordercolor: Color("DarkCreamV2"), widthBtn: 48, heightBtn: 28 ) {
+                    // action
+                }
+                
+                Spacer()
+                
+                Button(action: {
+                    // action
+                }, label: {
+                    Image("menu-alt-4")
+                        .resizable()
+                        .renderingMode(.template) // Set rendering mode to template
+                        .foregroundColor(Color("Blue"))
+                        .frame(width: 20, height: 20)
+                    
+                })
+            }
+            
+            VStack (spacing: 15) {
+                
+                // List of Fleet Item
+                
+                MyFleetItem(heliimage: "heliplaceholder", title: "R66 Turbine Marine", subtitle1: "D89 - T56 - H64", subtitle2: "N788AJ")
+                
+                MyFleetItem(heliimage: "heliplaceholderwhite", title: "R44 Cadet", subtitle1: "D89 - T56 - H64", subtitle2: "N788AJ")
+                
+                MyFleetItem(heliimage: "heliplaceholderblack", title: "R44 Raven II", subtitle1: "D89 - T56 - H64", subtitle2: "N788AJ")
+                
+                
+                
+                
+                
+            }
+            
+            Spacer()
+        }
+    }
+    
+    @ViewBuilder
+    var AddFleetView: some View {
         
         
         VStack (spacing: 0) {
-           
-           
+            
+            HStack {
+                Text("MY FLEET")
+                    .font(Font.custom("Shapiro-75HeavyText", size: 24))
+                    .foregroundStyle(Color("Blue"))
+                
+                Spacer()
+                
+            }
             
             Spacer()
             
@@ -113,7 +181,7 @@ struct MyFleetView: View {
     
     
     @ViewBuilder
-    var OrderTrackerSecondStageView: some View {
+    var TrackFleetView: some View {
         
         
         VStack (spacing: 0) {
@@ -179,13 +247,13 @@ struct MyFleetView: View {
             .padding(.bottom,12)
             
             /*HStack {
-                Text("Enter Serial number")
-                    .font(Font.custom("Inter28pt-Regular", size: 14))
-                    .foregroundStyle(Color("Black"))
-                    .multilineTextAlignment(.center)
-                
-                Spacer()
-            }*/
+             Text("Enter Serial number")
+             .font(Font.custom("Inter28pt-Regular", size: 14))
+             .foregroundStyle(Color("Black"))
+             .multilineTextAlignment(.center)
+             
+             Spacer()
+             }*/
             
             HStack {
                 CustomTextField(hint: "N4059Q", isPassword: false, value: $serialno )
