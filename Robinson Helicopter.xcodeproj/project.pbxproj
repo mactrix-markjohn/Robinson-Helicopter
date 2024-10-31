@@ -40,6 +40,7 @@
 		04C22B662CBDBB1500B9F748 /* HeliTrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C22B652CBDBB1500B9F748 /* HeliTrackView.swift */; };
 		04C22B682CBDBB3000B9F748 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C22B672CBDBB3000B9F748 /* HomeView.swift */; };
 		04C9E6D82CD1379A00ADB2E8 /* MyFleetItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C9E6D72CD1379A00ADB2E8 /* MyFleetItem.swift */; };
+		04C9E71E2CD3859D00ADB2E8 /* ReorderFleetItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C9E71D2CD3859D00ADB2E8 /* ReorderFleetItem.swift */; };
 		04D4DF622CC81377004C7A29 /* CustomTextAndCheveronButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4DF612CC81377004C7A29 /* CustomTextAndCheveronButton.swift */; };
 		04D4DF642CC8265B004C7A29 /* CustomProductsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4DF632CC8265B004C7A29 /* CustomProductsButton.swift */; };
 		04D4DF662CC8389A004C7A29 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4DF652CC8389A004C7A29 /* Line.swift */; };
@@ -91,6 +92,7 @@
 		04C22B652CBDBB1500B9F748 /* HeliTrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeliTrackView.swift; sourceTree = "<group>"; };
 		04C22B672CBDBB3000B9F748 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		04C9E6D72CD1379A00ADB2E8 /* MyFleetItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFleetItem.swift; sourceTree = "<group>"; };
+		04C9E71D2CD3859D00ADB2E8 /* ReorderFleetItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReorderFleetItem.swift; sourceTree = "<group>"; };
 		04D4DF612CC81377004C7A29 /* CustomTextAndCheveronButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextAndCheveronButton.swift; sourceTree = "<group>"; };
 		04D4DF632CC8265B004C7A29 /* CustomProductsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProductsButton.swift; sourceTree = "<group>"; };
 		04D4DF652CC8389A004C7A29 /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
@@ -218,6 +220,7 @@
 				04D4DF672CC84204004C7A29 /* HeliTrackItem.swift */,
 				04A0FCB92CCAE199009C3B77 /* FIndDealerResultItem.swift */,
 				04C9E6D72CD1379A00ADB2E8 /* MyFleetItem.swift */,
+				04C9E71D2CD3859D00ADB2E8 /* ReorderFleetItem.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -345,6 +348,7 @@
 				04A0FCB82CCACADF009C3B77 /* ResultOfDealerSearch.swift in Sources */,
 				041496B82CC6A72D00BE03DA /* MyAccountView.swift in Sources */,
 				04A0FCBA2CCAE199009C3B77 /* FIndDealerResultItem.swift in Sources */,
+				04C9E71E2CD3859D00ADB2E8 /* ReorderFleetItem.swift in Sources */,
 				04D4DF622CC81377004C7A29 /* CustomTextAndCheveronButton.swift in Sources */,
 				04DAEEC22CBFDB8600F1E5E6 /* CustomNoBackButton.swift in Sources */,
 				04A0FCB62CCAC62C009C3B77 /* NotificationSettingsView.swift in Sources */,
