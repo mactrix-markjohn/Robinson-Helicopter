@@ -11,6 +11,9 @@ struct CustomTitleBodyButton: View {
     var title: String
     var contentbody: String
     
+    var circlecolor = Color("White")
+    var isTextIcon: Bool = false
+    
     var mainicon: String
     var mainiconcolor: Color = Color("Blue")
     
@@ -50,16 +53,27 @@ struct CustomTitleBodyButton: View {
                     ZStack {
                         // Circle with a white background
                         Circle()
-                            .fill(Color.white)
+                            .fill(circlecolor)
                             .frame(width: 40, height: 40)
                         
-                        // Camera image on top
-                        Image(mainicon)
-                            .resizable()
-                            .renderingMode(.template)
-                            .scaledToFit()
-                            .frame(width: 16.67, height: 16.67)
-                            .foregroundColor(mainiconcolor)
+                        if isTextIcon {
+                            Text("BS")
+                                .font(Font.custom("Shapiro-75HeavyText", size: 12))
+                            .foregroundStyle(Color("Blue"))
+                        }else {
+                            
+                            // Camera image on top
+                            Image(mainicon)
+                                .resizable()
+                                .renderingMode(.template)
+                                .scaledToFit()
+                                .frame(width: 16.67, height: 16.67)
+                                .foregroundColor(mainiconcolor)
+                            
+                        }
+                        
+                        
+                        
                         
                         // Check state
                         
@@ -116,6 +130,8 @@ struct CustomTitleBodyButton: View {
     }
 }
 
-//#Preview {
-//    CustomTitleBodyButton()
-//}
+#Preview {
+    CustomTitleBodyButton(title: "Ben Smith", contentbody: "ben.smith@gmail.com", isTextIcon: false, mainicon: "user",stackpadding: 0) {
+        // action
+    }
+}

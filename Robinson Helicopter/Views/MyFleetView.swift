@@ -22,23 +22,20 @@ struct MyFleetView: View {
                 
                 
                 // Other contents
-                ZStack {
-                    // First view
-                    AddFleetView
-                        .opacity(0)
-                    
-                    // Second view (Main view)
-                    
-                    MyFleetMainView
-                        .opacity(1)
-                    
-                }
-                .padding(.horizontal,16)
-                
-                
-                
-                
-                
+                ScrollView {
+                    ZStack {
+                        // First view
+                        AddFleetView
+                            .opacity(0)
+                        
+                        // Second view (Main view)
+                        
+                        MyFleetMainView
+                            .opacity(1)
+                        
+                    }
+                    .padding(.horizontal,16)
+                }.scrollIndicators(.hidden)
                 
                 
             }
